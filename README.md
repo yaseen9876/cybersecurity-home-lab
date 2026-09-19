@@ -39,6 +39,20 @@ After scanning the service, I looked at the HTTP server logs and noticed that Nm
 - `reports/` - My lab analysis
 - `screenshots/` - Screenshots from the lab
 
+## Screenshots
+
+### Nmap Service Detection
+
+This scan shows Nmap identifying the HTTP service running on port 8080.
+
+![Nmap Service Detection](screenshots/nmap-service-detection.png)
+
+### HTTP Log Analysis
+
+The server logs show a normal HTTP request along with requests generated during Nmap service detection.
+
+![HTTP Log Analysis](screenshots/http-log-analysis.png)
+
 ## Next Steps
 
 I plan to continue expanding this lab with network traffic analysis and additional defensive security exercises.

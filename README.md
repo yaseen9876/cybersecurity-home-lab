@@ -53,6 +53,21 @@ The server logs show a normal HTTP request along with requests generated during 
 
 ![HTTP Log Analysis](screenshots/http-log-analysis.png)
 
+## Commands Used
+
+Some of the main commands I used during this lab:
+
+```bash
+ip addr
+ping -c 4 8.8.8.8
+ping -c 4 google.com
+nmap 127.0.0.1
+nmap -p 8000 127.0.0.1
+nmap -sV -p 8000 127.0.0.1
+nmap -sV -p 8080 127.0.0.1
+python3 -m http.server 8080
+curl http://127.0.0.1:8080
+```
 ## Next Steps
 
 I plan to continue expanding this lab with network traffic analysis and additional defensive security exercises.

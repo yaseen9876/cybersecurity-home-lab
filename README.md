@@ -14,9 +14,9 @@ This is a cybersecurity home lab I built to get hands-on experience with Linux, 
 
 For the first part of this project, I learned how to use Nmap to scan ports and identify running services.
 
-I first scanned my Kali environment to create a baseline. I then started a Python HTTP server and saw how the port changed from closed to open.
+I first scanned my Kali environment to create a baseline. I then started a local Python HTTP server on port 8000 and used Nmap to see how the port changed from closed to open.
 
-I also created a test HTTP service using Ubuntu and used Kali to identify the service running on port 8080.
+After that, I created a test HTTP service using Ubuntu on port 8080 and used Kali to identify the running service.
 
 After scanning the service, I looked at the HTTP server logs and noticed that Nmap generated multiple requests while trying to identify the service.
 
